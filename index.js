@@ -8,7 +8,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
-const inputM3U8 = process.env.INPUT_M3U8 || 'http://pfsv.io:80/couto14/211219tv/151.m3u8';
+const inputM3U8 = process.env.INPUT_M3U8 || 'http://aguacomgas.shop:80/999657183/131302792/152309.m3u8';
 const rtmpUrl = process.env.RTMP_URL || 'rtmp://live.restream.io/live/re_9933311_dea4d58f20c3a1304e9c';
 
 function startRestream() {
